@@ -1,22 +1,15 @@
-Welcome to Lumache's documentation!
+Welcome to Vision Documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+In this page you can find documentation on how to the Vision supercomputer, including information on how to submit and manage jobs in the best possible way.
 
 Contents
 --------
 
 .. toctree::
+  :maxdepth: 1
 
-   usage
-   api
+  about.rst
+  access.rst
+  job-management.rst
+  examples.rst
