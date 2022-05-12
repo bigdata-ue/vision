@@ -12,4 +12,4 @@ Examples:
   :maxdepth: 2
 
   conda/conda.rst
-  venv/venv.rst
+  python-venv/venv.rst
