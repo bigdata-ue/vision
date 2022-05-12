@@ -7,7 +7,7 @@ To access Vision, users should use SSH connect to the frontend frontend(manageme
 
 To access Vision via SSH, you should use the following settings:
 
- - hostname: ``vision.xdi.uevora.pt``
+ - hostname: ``main.vision.xdi.uevora.pt``
  - port: ``22``
  - username: provided by the user
  - password: provided by Vision administrators
