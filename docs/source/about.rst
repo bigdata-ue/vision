@@ -34,4 +34,4 @@ This folder should be used to store data that will be processed by your applicat
 
 .. warning::
 
-  This storage uses a RAID 0 volume to increase read performance while feeding data to the GPUS, wihtout any redundancy. If any of the drives fail, all data in the external storage will be lost. There are no backups of this volume.
+  This storage uses a RAID 0 volume to increase read performance while feeding data to the GPUs, wihtout any redundancy. If any of the drives fail, all data in the external storage will be lost. There are no backups of this volume.
