@@ -11,5 +11,8 @@ Contents
 
   about.rst
   access.rst
+  quick_start.rst
   job-management.rst
   examples.rst
+  software/index.rst
+  software/software_modules.rst

@@ -34,3 +34,9 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 source_suffix = ['.rst', '.md']
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+def setup(app):
+   app.add_css_file('css/custom.css')

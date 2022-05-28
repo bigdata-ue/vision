@@ -25,10 +25,14 @@ The home folder is located in ``/home/<username>`` and is shared between all nod
 
 This folder should be used to store personal files and source code for the applications of the user.
 
+.. warning::
+
+  There are no backups of the files found in the home folders.
+
 External storage
 ^^^^^^^^^^^^^^^^
 
-The Vision supercomputer has an external storage for data with the capacity of 15TB. This storage is made avaialbe in the management node and in the compute nodes via an NFS share mounted in ``/data``. Each user has a folder in ``/data/<username>`` and/or ``/data/<project>/<username>``. The data stored in ``/data`` is shared between all nodes.
+The Vision supercomputer has an external storage for data with the capacity of 15TB. This storage is made avaialbe in the management node and in the compute nodes via an NFS share mounted in ``/data``. Each user has a folder in ``/data/<username>`` and/or ``/data/projects/<project>/<username>``. The home folders and the data stored in ``/data`` is shared between all nodes.
 
 This folder should be used to store data that will be processed by your applications. The data created by your applications should also be stored in this storage area.
 

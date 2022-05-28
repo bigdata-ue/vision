@@ -1,5 +1,7 @@
-Python Environment
-------------------
+.. _venv:
+
+Python Environments
+-------------------
 
 In this page you can find Slurm job script examples that uses Python Environment to manage the dependencies.
 
