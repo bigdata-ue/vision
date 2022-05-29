@@ -98,6 +98,12 @@ The following is a list of the modules and extensions currently available:
     GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational
     numbers, and floating point numbers. 
 
+  GROMACS: GROMACS/2021.3-CUDA-11.3.1
+    GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian
+    equations of motion for systems with hundreds to millions of particles. This is a GPU enabled
+    build, containing both MPI and threadMPI builds. It also contains the gmxapi extension for the
+    single precision MPI build. 
+
   HDF: HDF/4.2.15
     HDF (also known as HDF4) is a library and multi-object file format for storing and managing data
     between machines. 
@@ -525,6 +531,10 @@ The following is a list of the modules and extensions currently available:
     NetCDF (network Common Data Form) is a set of software libraries and machine-independent data
     formats that support the creation, access, and sharing of array-oriented scientific data.
 
+  networkx: networkx/2.5.1
+    NetworkX is a Python package for the creation, manipulation, and study of the structure,
+    dynamics, and functions of complex networks.
+
   nsync: nsync/1.24.0
     nsync is a C library that exports various synchronization primitives, such as mutexes
 
@@ -554,6 +564,10 @@ The following is a list of the modules and extensions currently available:
     mainly to create Python bindings of existing C++ code.
 
   rootless-docker: rootless-docker
+
+  scikit-build: scikit-build/0.11.1
+    Scikit-Build, or skbuild, is an improved build system generator for CPython C/C++/Fortran/Cython
+    extensions.
 
   scikit-learn: scikit-learn/0.24.2
     Scikit-learn integrates machine learning algorithms in the tightly-knit scientific Python world,

@@ -1,7 +1,7 @@
 .. _software_modules:
 
 Software modules
-===================
+================
 
 One of the available options to manage software dependencies in Vision is through the use of software modules, which sets the paths for the necessary binaries, libraries, manuals and include files for the software needed by each application.
 
