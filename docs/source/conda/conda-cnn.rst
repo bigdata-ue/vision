@@ -58,11 +58,12 @@ After installing all dependencies, you should deactivate the virtual environment
 Creating the Conda environment using an environment file:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To create the Conda environment from the environment file you should run the following command::
+To create the Conda environment from the environment file you should run the following command:
 
 .. code-block:: console
 
-  conda env create -f environment.yml
+  (tf-gpu) $ conda env create -f environment.yml
+
 
 This will create a Conda envirnment with the name and dependencies defined in the file environment.yml
 
