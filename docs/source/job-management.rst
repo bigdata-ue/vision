@@ -90,8 +90,8 @@ To cancel a job, the user should use the ``scancel`` command:
 
 .. code-block:: console
 
-  $: sbatch my-job-script.sh
-  Submitted batch job 439
+  $ scancel 439
+
 
 In this example, the job was submited with the id 439.
 
