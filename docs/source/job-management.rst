@@ -45,7 +45,7 @@ In this script, we start by 1) defining the job name and the output file (lines 
 Accounting
 ----------
 
-The resources used by a user are allways associated with project and are logged in order to control the cluster usage. To check the resources used in a time interval, the users should use the ``sreport`` command:
+The resources used by a user are always associated with project and are logged in order to control the cluster usage. To check the resources used in a time interval, the users should use the ``sreport`` command:
 
 .. code-block:: console
 
@@ -78,10 +78,10 @@ To submit a job, you should use the ``sbatch`` command:
 
 .. code-block:: console
 
-  $: sbatch my-job-script.sh
+  $ sbatch my-job-script.sh
   Submitted batch job 439
 
-In this example, the job was submited with the id 439.
+In this example, the job was submitted with the id 439.
 
 Cancel a job
 ^^^^^^^^^^^^
@@ -93,16 +93,16 @@ To cancel a job, the user should use the ``scancel`` command:
   $ scancel 439
 
 
-In this example, the job was submited with the id 439.
+In this example, the job was 439 was cancelled.
 
 List job queue
 ^^^^^^^^^^^^^^
 
-To list the job queue, the user use should use the command ``squeue``. This command lists all submited jobs to the cluster, including the job status and the node(s) where they are running:
+To list the job queue, the user use should use the command ``squeue``. This command lists all submitted jobs to the cluster, including the job status and the node(s) where they are running:
 
 .. code-block:: console
 
-  $: squeue
+  $ squeue
                JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
                444     compute theJobNa     user  R      11:01      1 vision2
 
@@ -113,7 +113,7 @@ To list detailed information about a job, the user should use the ``scontrol`` c
 
 .. code-block:: console
 
-  $: scontrol show jobid <jobId>
+  $ scontrol show jobid <jobId>
   JobId=444 JobName=The_Job_Name
      UserId=user(1000) GroupId=emedeiros(1000) MCS_label=N/A
      Priority=4294901696 Nice=0 Account=asr-pt QOS=normal
