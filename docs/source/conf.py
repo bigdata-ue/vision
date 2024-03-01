@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Vision'
-copyright = '2022, VISTALab UE - Vision'
+copyright = '2024, BigData@UE - Vision'
 
 release = '0.1'
 version = '0.1.0'
