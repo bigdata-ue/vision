@@ -46,7 +46,7 @@ To install the dependencies manually, you should run:
 
 .. code-block:: console
 
-  (venv) $ pip install tensorflow==2.7.0
+  (venv) $ pip install tensorflow[and-cuda]==2.14.0
   (venv) $ pip install matplotlib
 
 Install dependencies using a dependency file
