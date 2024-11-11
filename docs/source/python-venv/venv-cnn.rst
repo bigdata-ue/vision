@@ -46,6 +46,7 @@ To install the dependencies manually, you should run:
 
 .. code-block:: console
 
+  (venv) $ pip install "numpy<2.0"
   (venv) $ pip install tensorflow[and-cuda]==2.14.0
   (venv) $ pip install matplotlib
 
